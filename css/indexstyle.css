@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambay&family=Comfortaa:wght@600&family=Open+Sans&family=Unbounded&display=swap');
+@import url('https://fonts.cdnfonts.com/css/modern-no-20');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Modern No. 20', sans-serif;
+    background: #F6E8EA;
+    box-sizing: border-box;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    background: #53663D;
+    height: 12%;
+    padding-right: 25px;
+}
+
+.logo {
+    max-width: 80px;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+/* Styling of header links */
+nav{
+    font-family: 'Cambay', sans-serif;
+    color: #F6E8EA;
+    text-decoration: none;
+    
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+nav ul li a{
+    color: #F6E8EA;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.container {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col1, .col2 {
+    flex-basis: 50%;
+    margin-top: 10%;
+}
+
+h1 {
+    color: #53663D;
+    font-size: 90px;
+}
+
+p {
+    font-family: 'Cambay', sans-serif;
+    color: #53663D;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.col2 {
+    position: relative;
+}
+
+.col2 img {
+    height: auto;
+    border-radius: 30px 0 30px 0;
+    border: 5px solid #53663D;
+    box-shadow: 10px 10px 20px 0 rgba(87, 101, 65, 0);
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* @media screen and (max-width: 500px) {
+    
+} */
